@@ -25,13 +25,24 @@ ysyx_23060207-雷昊川
   * 修复bug
 * NPC
   * NPC与NEMU的差分测试
-  * NPC运行在AM上
   * NPC的基础设施(功能同NEMU)
     * sdb
     * trace
-  * 修改NPC访存的方式
   * 实现部分指令
     * 所有cpu-test中的测试和差分测试通过
+
+----
+
+### 2024-03-17 --> 2024-03-31
+
+* NEMU
+  * PA2.3
+    * 实现IOE, 运行演示程序
+  * PA3.1
+  * PA4.1
+    * 启动RT-Thread
+* NPC
+  * 实现IOE 运行红白机模拟器(VGA)
 
 
 
